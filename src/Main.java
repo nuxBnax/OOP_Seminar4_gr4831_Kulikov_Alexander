@@ -4,11 +4,6 @@ import java.util.Arrays;
 public class Main {
 
     public static void main(String[] args) {
-        // -----------------------------------------------------
-        // Задание 3
-        // 3)	Написать класс калькулятор, принимающий List
-        // целочисленных значений, возвращающий сумму элементов
-        // коллекции (метод sum)
 
         Calculator calcutalor = new Calculator();
         System.out.println(calcutalor.sum(new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8))));
@@ -17,7 +12,7 @@ public class Main {
         System.out.println("calcutalor.multiplication(5,2) = " + calcutalor.multiplication(5, 2));
 
 
-        System.out.println("calcutalor.fract(3.21,4) = " + calcutalor.fract(5.375, 4));
+        System.out.println("calcutalor.fract(5.375,4) = " + calcutalor.fract(5.375, 4));
         System.out.println("calcutalor.digitToBin(5) = " + calcutalor.digitToBin(5));
 
         calcutalor.numToBin("5.375",4);
